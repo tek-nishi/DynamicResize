@@ -47,7 +47,7 @@ public:
     settings->setWindowSize(Window::WIDTH, Window::HEIGHT);
   }
   
-	void setup() {
+  void setup() {
     screen_size_  = Vec2i(Window::WIDTH, Window::HEIGHT);
     aspect_ratio_ = Window::WIDTH / float(Window::HEIGHT);
     draw_area_    = getWindowBounds();
@@ -56,7 +56,7 @@ public:
   }
 
   
-	void mouseDown( MouseEvent event ) {
+  void mouseDown( MouseEvent event ) {
     // Mouse座標→Screen座標→Window座標と変換
     auto mouse_pos  = event.getPos();
     auto screen_pos = toScreenPos(mouse_pos, screen_size_, draw_area_);
@@ -90,9 +90,9 @@ public:
   }
 
   
-	void update() {}
+  void update() {}
   
-	void draw() {
+  void draw() {
     // 常にViewportを設定
     gl::setViewport(draw_area_);
 
