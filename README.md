@@ -18,7 +18,7 @@ cinder_0.8.6_mac フォルダをDynamicResizeフォルダと同じ場所に置�
 cinder_0.8.6_vc2013 フォルダをDynamicResizeフォルダと同じ場所に置く
 
 
-## Liense
+## License
 License All source code files are licensed under the MPLv2.0 license
 
 [MPLv2.0](https://www.mozilla.org/MPL/2.0/)
